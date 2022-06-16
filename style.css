@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 250px 0 50px 0;
+}
+
+label {
+  font-size: 100px;
+  text-shadow: 5px -5px gray;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.btn {
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+  border: 0.5px solid;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+
+#increase:hover {
+  background-color: green;
+  border-color: green;
+}
+
+#decrease:hover {
+  background-color: red;
+  border-color: red;
+}
+
+#reset:hover {
+  background-color: yellow;
+  border-color: yellow;
+}
